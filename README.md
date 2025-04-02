@@ -1,5 +1,8 @@
 # Huffman Code 🗜️
 
+<img src="https://github.com/AnasAlSayed18/img/blob/e045f2c2a082004e4439da48826798c447660f12/logo1.png" width="250" />
+
+
 ## 📜 Overview
 This project implements the **Huffman coding** algorithm to **compress** and **decompress** files of any type. While Huffman coding is highly efficient in many cases, please note that it may sometimes **increase the size** of certain files due to the nature of encoding.
 
