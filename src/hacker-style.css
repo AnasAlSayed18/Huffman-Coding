@@ -1,0 +1,46 @@
+/* hacker-style.css */
+
+/* Set the overall background to dark */
+.root {
+    -fx-background-color: #21211f;
+}
+
+/* Style labels with neon green text and a monospace font */
+.label {
+    -fx-text-fill: #00ff00;
+    -fx-font-family: "Courier New", monospace;
+    -fx-font-size: 14px;
+}
+
+/* Style buttons */
+.button {
+    -fx-background-color: #21211f;
+    -fx-text-fill: #00ff00;
+    -fx-border-color: #00ff00;
+    -fx-border-width: 2px;
+    -fx-font-family: "Courier New", monospace;
+    -fx-font-size: 14px;
+    -fx-padding: 5 10;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    -fx-background-color: #161615;
+    -fx-text-fill: #00ff7f;
+    -fx-cursor: hand;
+}
+
+/* Style the ListView */
+.list-view {
+    -fx-control-inner-background: #21211f;
+    -fx-text-fill: #00ff00;
+    -fx-font-family: "Courier New", monospace;
+    -fx-border-color: #00ff00;
+    -fx-border-width: 1px;
+}
+
+/* Scrollbars for ListView */
+.scroll-bar {
+    -fx-background-color: #21211f;
+    -fx-thumb: #00ff00;
+}

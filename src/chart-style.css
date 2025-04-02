@@ -1,0 +1,14 @@
+.chart-pie .data0 {
+    -fx-pie-color: #00cc00; /* Neon green for first slice */
+}
+.chart-pie .data1 {
+    -fx-pie-color: #ff0000; /* Red for second slice */
+}
+.chart-legend-item {
+    -fx-text-fill: #00ff00; /* Neon green for the legend text */
+    -fx-font-size: 14px;   /* Optional: Adjust the font size */
+}
+
+.chart-title {
+    -fx-text-fill: #00ff00; /* Optional: Change the title text color */
+}

@@ -1,0 +1,24 @@
+.list-view {
+    -fx-background-color: #21211f; /* Dark background */
+    -fx-control-inner-background: #21211f; /* Inner background matches */
+    -fx-border-color: #00ff00; /* Glowing green border */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-focus-color: transparent; /* Disable default blue focus color */
+    -fx-faint-focus-color: transparent; /* Remove faint focus effect */
+}
+
+.list-cell {
+    -fx-text-fill: #00ff00; /* Glowing green text */
+    -fx-font-family: "Consolas", monospace; /* Hacker-style font */
+    -fx-font-size: 14px; /* Adjust text size */
+    -fx-background-color: transparent; /* Transparent cell background */
+    -fx-border-color: #005500; /* Subtle green cell borders */
+    -fx-border-width: 0 0 1px 0; /* Bottom border only */
+}
+
+.list-cell:hover {
+    -fx-background-color: #21211f; /* Highlight cell on hover */
+    -fx-border-color: #00ff00; /* Bright green border on hover */
+}
